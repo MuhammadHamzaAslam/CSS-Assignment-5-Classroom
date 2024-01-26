@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+}
+div{
+    display: flex;
+    justify-content:left;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+}
+.bar{
+    height: 25px;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.classroom{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    /* padding: 20px; */
+}
+#classroom{
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+#classroom:hover{
+    text-decoration: underline;
+}
+.plus{
+    height: 20px;
+    width: 20px;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+.app{
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.user{
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#home{
+    height: 320px;
+    width: 250px;
+    border:1px solid rgba(0, 0, 0, 0.089) ;
+    position: relative;
+}
+.left1{
+    height: 130px;
+    width: 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+.house{
+    height: 30px;
+    width: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.subhome{
+    height: 50px;
+    width: 250px;
+    border: none;
+    background-color: rgba(173, 216, 230, 0.212);
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.home{
+    font-size: 14pt;
+    margin-left: 20px;
+    margin-top: 13px;
+    display: inline-block;
+}
+#xyz{
+    height: 50px;
+    width: 250px;
+    margin-top: 65px;
+    margin-left: -140px;
+    border: none;
+}
+.Calender{
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.efg{
+    height: 50px;
+    width: 250px;
+    margin-top: 155px;
+    margin-left: -250px;
+    border: none;
+}
+.cap{
+    height:20px ;
+    width:  80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Enrolled{
+    margin-left: 1px;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+.lmn{
+    height: 50px;
+    width: 250px;
+    margin-top: 205px;
+    margin-left: -250px;
+    border: none;
+}
+.check{
+    height:20px ;
+    width:  80px;
+    margin-left: 20px;
+    margin-top: 10px
+}
+.rst{
+    height: 50px;
+    width: 250px;
+    margin-top: 255px;
+    margin-left: -250px;
+    border: none;
+}
+.arc{
+    height: 40px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.archieve{
+    height:20px ;
+    width:  80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#center{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    position: absolute;
+    top: 110px;
+    left: 320px;
+    border-radius: 10px;
+
+}
+.green{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 128, 0, 0.637);
+    border-radius: 10px;
+    position: relative;
+}
+.web{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration:  underline;
+}
+
+.batch{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sirpic{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
