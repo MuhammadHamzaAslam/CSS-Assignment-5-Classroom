@@ -3,7 +3,7 @@
 }
 div{
     display: flex;
-    justify-content:left;
+    justify-content:safe;
     border: 1px solid rgba(0, 0, 0, 0.089);
 }
 .bar{
@@ -33,22 +33,35 @@ li{
     text-decoration: underline;
 }
 .plus{
-    height: 20px;
+    height: 30px;
     width: 20px;
     margin-left: 900px;
     margin-top: 30px;
 }
+.plus:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 50%;
+}
 .app{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     margin-top: 30px;
     margin-left: 20px;
 }
+.app:hover{
+    background-color:rgba(0, 0, 0, 0.089) ;
+    border-radius: 40%;
+   
+}
 .user{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 30px;
     margin-top: 30px;
     margin-left: 20px;
+}
+.user:hover{
+    background-color:rgba(0, 0, 0, 0.089) ;
+    border-radius: 20%;
 }
 #home{
     height: 320px;
@@ -136,9 +149,13 @@ li{
 .arc{
     height: 40px;
     width: 250px;
-    border: 1px solid rgba(0, 0, 0, 0.096);
+    border: none;
 }
-
+.arc1{
+    height: 40px;
+    width: 250px;
+    border: ;
+}
 .archieve{
     height:20px ;
     width:  80px;
@@ -148,37 +165,61 @@ li{
 #center{
     height: 300px;
     width: 300px;
-    border: 1px solid black;
-    position: absolute;
-    top: 110px;
-    left: 320px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    margin-left: 290px;
+    margin-top: -370px;
     border-radius: 10px;
-
 }
-.green{
+.class1{
+    height: 120px;
     width: 300px;
-    height: 100px;
-    background-color: rgba(0, 128, 0, 0.637);
+    background-color: green;
     border-radius: 10px;
-    position: relative;
 }
-.web{
+.developer{
+    position: relative;
     color: white;
-    margin-top: 10px;
-    margin-left: 10px;
-    text-decoration:  underline;
+    margin-top: 20px;
+}
+.sirpic{
+    height: 120px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: 40px;
+    position: absolute;
+    left: 460px;
 }
 
 .batch{
-    color: white;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.sirpic{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
     position: absolute;
-    top: 40px;
-    right: 10px;
+    top:170px;
+    color: white;
+}
+.name{
+    position: absolute;
+    top:190px;
+    color: white; 
+    font-size: 10pt;  
+}
+.last{
+    position: absolute;
+    top:340px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    height:80px ;
+    width: 300px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    left: 290px; ;
+}
+.file{
+    height: 30px;   
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.file1{
+    height: 30px;   
+    width: 30px;
+    margin-top: 30px;
+    margin-left:10px;
 }
